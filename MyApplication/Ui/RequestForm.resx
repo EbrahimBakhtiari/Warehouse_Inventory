@@ -1,0 +1,1280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing"">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InventoryTransferButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="InventoryTransferButton.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>LightGreen</value>
+  </data>
+  <data name="InventoryTransferButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANYekan Medium, 14pt, style=Bold</value>
+  </data>
+  <data name="InventoryTransferButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 199</value>
+  </data>
+  <data name="InventoryTransferButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 40</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InventoryTransferButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="InventoryTransferButton.Text" xml:space="preserve">
+    <value>Inventory Transfer New</value>
+  </data>
+  <data name="&gt;&gt;InventoryTransferButton.Name" xml:space="preserve">
+    <value>InventoryTransferButton</value>
+  </data>
+  <data name="&gt;&gt;InventoryTransferButton.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Button, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;InventoryTransferButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InventoryTransferButton.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="AddToRequestButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="AddToRequestButton.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>LightGreen</value>
+  </data>
+  <data name="AddToRequestButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANYekan Medium, 14pt, style=Bold</value>
+  </data>
+  <data name="AddToRequestButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>773, 199</value>
+  </data>
+  <data name="AddToRequestButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 40</value>
+  </data>
+  <data name="AddToRequestButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="AddToRequestButton.Text" xml:space="preserve">
+    <value>Add to Request</value>
+  </data>
+  <data name="&gt;&gt;AddToRequestButton.Name" xml:space="preserve">
+    <value>AddToRequestButton</value>
+  </data>
+  <data name="&gt;&gt;AddToRequestButton.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Button, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AddToRequestButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddToRequestButton.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="PrintInventoryTransferButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="PrintInventoryTransferButton.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>LightGreen</value>
+  </data>
+  <data name="PrintInventoryTransferButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANYekan Medium, 14pt, style=Bold</value>
+  </data>
+  <data name="PrintInventoryTransferButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 473</value>
+  </data>
+  <data name="PrintInventoryTransferButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 40</value>
+  </data>
+  <data name="PrintInventoryTransferButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="PrintInventoryTransferButton.Text" xml:space="preserve">
+    <value>Print Inventory Transter</value>
+  </data>
+  <data name="&gt;&gt;PrintInventoryTransferButton.Name" xml:space="preserve">
+    <value>PrintInventoryTransferButton</value>
+  </data>
+  <data name="&gt;&gt;PrintInventoryTransferButton.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Button, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PrintInventoryTransferButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PrintInventoryTransferButton.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="PrintInvoiceButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="PrintInvoiceButton.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>LightGreen</value>
+  </data>
+  <data name="PrintInvoiceButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANYekan Medium, 14pt, style=Bold</value>
+  </data>
+  <data name="PrintInvoiceButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>905, 473</value>
+  </data>
+  <data name="PrintInvoiceButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 40</value>
+  </data>
+  <data name="PrintInvoiceButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="PrintInvoiceButton.Text" xml:space="preserve">
+    <value>Print Invoice</value>
+  </data>
+  <data name="&gt;&gt;PrintInvoiceButton.Name" xml:space="preserve">
+    <value>PrintInvoiceButton</value>
+  </data>
+  <data name="&gt;&gt;PrintInvoiceButton.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Button, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PrintInvoiceButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PrintInvoiceButton.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="DeleteButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="DeleteButton.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>255, 128, 128</value>
+  </data>
+  <data name="DeleteButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANYekan Medium, 14pt, style=Bold</value>
+  </data>
+  <data name="DeleteButton.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="DeleteButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1089, 473</value>
+  </data>
+  <data name="DeleteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 40</value>
+  </data>
+  <data name="DeleteButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="DeleteButton.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;DeleteButton.Name" xml:space="preserve">
+    <value>DeleteButton</value>
+  </data>
+  <data name="&gt;&gt;DeleteButton.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Button, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DeleteButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DeleteButton.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="InvoiceButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="InvoiceButton.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>LightGreen</value>
+  </data>
+  <data name="InvoiceButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANYekan Medium, 14pt, style=Bold</value>
+  </data>
+  <data name="InvoiceButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 199</value>
+  </data>
+  <data name="InvoiceButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 40</value>
+  </data>
+  <data name="InvoiceButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="InvoiceButton.Text" xml:space="preserve">
+    <value>Invoice New</value>
+  </data>
+  <data name="&gt;&gt;InvoiceButton.Name" xml:space="preserve">
+    <value>InvoiceButton</value>
+  </data>
+  <data name="&gt;&gt;InvoiceButton.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Button, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;InvoiceButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InvoiceButton.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="AddToShopingButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="AddToShopingButton.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>LightGreen</value>
+  </data>
+  <data name="AddToShopingButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANYekan Medium, 14pt, style=Bold</value>
+  </data>
+  <data name="AddToShopingButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1013, 199</value>
+  </data>
+  <data name="AddToShopingButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 40</value>
+  </data>
+  <data name="AddToShopingButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="AddToShopingButton.Text" xml:space="preserve">
+    <value>Add to Shoping</value>
+  </data>
+  <data name="&gt;&gt;AddToShopingButton.Name" xml:space="preserve">
+    <value>AddToShopingButton</value>
+  </data>
+  <data name="&gt;&gt;AddToShopingButton.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Button, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AddToShopingButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddToShopingButton.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="CountLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="CountLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="CountLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Teal</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v22.2" name="DevExpress.XtraEditors.v22.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="CountLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="CountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 202</value>
+  </data>
+  <data name="CountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 30</value>
+  </data>
+  <data name="CountLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="CountLabel.Text" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="&gt;&gt;CountLabel.Name" xml:space="preserve">
+    <value>CountLabel</value>
+  </data>
+  <data name="&gt;&gt;CountLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;CountLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CountLabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="NumberLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="NumberLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="NumberLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Teal</value>
+  </data>
+  <data name="NumberLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="NumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 283</value>
+  </data>
+  <data name="NumberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="NumberLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="NumberLabel.Text" xml:space="preserve">
+    <value>Number :</value>
+  </data>
+  <data name="&gt;&gt;NumberLabel.Name" xml:space="preserve">
+    <value>NumberLabel</value>
+  </data>
+  <data name="&gt;&gt;NumberLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;NumberLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NumberLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="DateLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="DateLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="DateLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Teal</value>
+  </data>
+  <data name="DateLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="DateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 323</value>
+  </data>
+  <data name="DateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="DateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="DateLabel.Text" xml:space="preserve">
+    <value>Date :</value>
+  </data>
+  <data name="&gt;&gt;DateLabel.Name" xml:space="preserve">
+    <value>DateLabel</value>
+  </data>
+  <data name="&gt;&gt;DateLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DateLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DateLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="RegistrarLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="RegistrarLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="RegistrarLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Teal</value>
+  </data>
+  <data name="RegistrarLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="RegistrarLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 359</value>
+  </data>
+  <data name="RegistrarLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="RegistrarLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="RegistrarLabel.Text" xml:space="preserve">
+    <value>User :</value>
+  </data>
+  <data name="&gt;&gt;RegistrarLabel.Name" xml:space="preserve">
+    <value>RegistrarLabel</value>
+  </data>
+  <data name="&gt;&gt;RegistrarLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RegistrarLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RegistrarLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="CustomerLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="CustomerLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="CustomerLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Teal</value>
+  </data>
+  <data name="CustomerLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="CustomerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 395</value>
+  </data>
+  <data name="CustomerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="CustomerLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="CustomerLabel.Text" xml:space="preserve">
+    <value>Customer :</value>
+  </data>
+  <data name="&gt;&gt;CustomerLabel.Name" xml:space="preserve">
+    <value>CustomerLabel</value>
+  </data>
+  <data name="&gt;&gt;CustomerLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;CustomerLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CustomerLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="TotalAmountLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="TotalAmountLabel.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="TotalAmountLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="TotalAmountLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Teal</value>
+  </data>
+  <data name="TotalAmountLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="TotalAmountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 437</value>
+  </data>
+  <data name="TotalAmountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="TotalAmountLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="TotalAmountLabel.Text" xml:space="preserve">
+    <value>Amount :</value>
+  </data>
+  <data name="&gt;&gt;TotalAmountLabel.Name" xml:space="preserve">
+    <value>TotalAmountLabel</value>
+  </data>
+  <data name="&gt;&gt;TotalAmountLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TotalAmountLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TotalAmountLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="NumberRequestLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="NumberRequestLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 15pt, style=Bold</value>
+  </data>
+  <data name="NumberRequestLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Red</value>
+  </data>
+  <data name="NumberRequestLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="NumberRequestLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 283</value>
+  </data>
+  <data name="NumberRequestLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 30</value>
+  </data>
+  <data name="NumberRequestLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="NumberRequestLabel.Text" xml:space="preserve">
+    <value>609</value>
+  </data>
+  <data name="&gt;&gt;NumberRequestLabel.Name" xml:space="preserve">
+    <value>NumberRequestLabel</value>
+  </data>
+  <data name="&gt;&gt;NumberRequestLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;NumberRequestLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NumberRequestLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="DateRequestLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="DateRequestLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="DateRequestLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="DateRequestLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="DateRequestLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 323</value>
+  </data>
+  <data name="DateRequestLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 30</value>
+  </data>
+  <data name="DateRequestLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="DateRequestLabel.Text" xml:space="preserve">
+    <value>1402/02/13</value>
+  </data>
+  <data name="&gt;&gt;DateRequestLabel.Name" xml:space="preserve">
+    <value>DateRequestLabel</value>
+  </data>
+  <data name="&gt;&gt;DateRequestLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DateRequestLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DateRequestLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="UserFullNameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="UserFullNameLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="UserFullNameLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="UserFullNameLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="UserFullNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 359</value>
+  </data>
+  <data name="UserFullNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 30</value>
+  </data>
+  <data name="UserFullNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="UserFullNameLabel.Text" xml:space="preserve">
+    <value>Ebrahim Bakhtiari</value>
+  </data>
+  <data name="&gt;&gt;UserFullNameLabel.Name" xml:space="preserve">
+    <value>UserFullNameLabel</value>
+  </data>
+  <data name="&gt;&gt;UserFullNameLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UserFullNameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UserFullNameLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="CustomerFullNameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="CustomerFullNameLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="CustomerFullNameLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="CustomerFullNameLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="CustomerFullNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 395</value>
+  </data>
+  <data name="CustomerFullNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 30</value>
+  </data>
+  <data name="CustomerFullNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="CustomerFullNameLabel.Text" xml:space="preserve">
+    <value>Iran Rayaneh Company</value>
+  </data>
+  <data name="&gt;&gt;CustomerFullNameLabel.Name" xml:space="preserve">
+    <value>CustomerFullNameLabel</value>
+  </data>
+  <data name="&gt;&gt;CustomerFullNameLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;CustomerFullNameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CustomerFullNameLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="AmountLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="AmountLabel.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="AmountLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 15pt, style=Bold</value>
+  </data>
+  <data name="AmountLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Blue</value>
+  </data>
+  <data name="AmountLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="AmountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 437</value>
+  </data>
+  <data name="AmountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 30</value>
+  </data>
+  <data name="AmountLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="AmountLabel.Text" xml:space="preserve">
+    <value>150/000/000</value>
+  </data>
+  <data name="&gt;&gt;AmountLabel.Name" xml:space="preserve">
+    <value>AmountLabel</value>
+  </data>
+  <data name="&gt;&gt;AmountLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AmountLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AmountLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CustomerInRequestFormDataGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <metadata name="CustomerCode.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="CustomerCode.HeaderText" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="CustomerCode.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="FirstName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="FirstName.HeaderText" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <metadata name="LastName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="LastName.HeaderText" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="LastName.Width" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <metadata name="Tel.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Tel.HeaderText" xml:space="preserve">
+    <value>Tel</value>
+  </data>
+  <data name="Tel.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <metadata name="CustomerType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="CustomerType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CustomerType.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="CustomerInRequestFormDataGridView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Yekan, 12pt, style=Bold</value>
+  </data>
+  <data name="CustomerInRequestFormDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 43</value>
+  </data>
+  <data name="CustomerInRequestFormDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 150</value>
+  </data>
+  <data name="CustomerInRequestFormDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;CustomerInRequestFormDataGridView.Name" xml:space="preserve">
+    <value>CustomerInRequestFormDataGridView</value>
+  </data>
+  <data name="&gt;&gt;CustomerInRequestFormDataGridView.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.DataGridView, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;CustomerInRequestFormDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CustomerInRequestFormDataGridView.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="SearchCustomerLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANYekan Medium, 12pt, style=Bold</value>
+  </data>
+  <data name="SearchCustomerLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Teal</value>
+  </data>
+  <data name="SearchCustomerLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="SearchCustomerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 9</value>
+  </data>
+  <data name="SearchCustomerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 30</value>
+  </data>
+  <data name="SearchCustomerLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="SearchCustomerLabel.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;SearchCustomerLabel.Name" xml:space="preserve">
+    <value>SearchCustomerLabel</value>
+  </data>
+  <data name="&gt;&gt;SearchCustomerLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SearchCustomerLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SearchCustomerLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="SearchProductLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANYekan Medium, 12pt, style=Bold</value>
+  </data>
+  <data name="SearchProductLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Teal</value>
+  </data>
+  <data name="SearchProductLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="SearchProductLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 9</value>
+  </data>
+  <data name="SearchProductLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 30</value>
+  </data>
+  <data name="SearchProductLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="SearchProductLabel.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;SearchProductLabel.Name" xml:space="preserve">
+    <value>SearchProductLabel</value>
+  </data>
+  <data name="&gt;&gt;SearchProductLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SearchProductLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SearchProductLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ProductInRequestFormDataGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <metadata name="ProductCode.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ProductCode.HeaderText" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="ProductCode.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="ProductName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ProductName.HeaderText" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="ProductName.Width" type="System.Int32, mscorlib">
+    <value>240</value>
+  </data>
+  <metadata name="ProductLastPrice.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ProductLastPrice.HeaderText" xml:space="preserve">
+    <value>Last Price</value>
+  </data>
+  <data name="ProductLastPrice.Width" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <metadata name="ProductLastStock.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ProductLastStock.HeaderText" xml:space="preserve">
+    <value>Last Stock</value>
+  </data>
+  <data name="ProductLastStock.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <metadata name="ProductUnit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ProductUnit.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="ProductInRequestFormDataGridView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Yekan, 12pt, style=Bold</value>
+  </data>
+  <data name="ProductInRequestFormDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 43</value>
+  </data>
+  <data name="ProductInRequestFormDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>758, 150</value>
+  </data>
+  <data name="ProductInRequestFormDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;ProductInRequestFormDataGridView.Name" xml:space="preserve">
+    <value>ProductInRequestFormDataGridView</value>
+  </data>
+  <data name="&gt;&gt;ProductInRequestFormDataGridView.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.DataGridView, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ProductInRequestFormDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProductInRequestFormDataGridView.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="RialsLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="RialsLabel.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="RialsLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="RialsLabel.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Teal</value>
+  </data>
+  <data name="RialsLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v22.2">
+    <value>None</value>
+  </data>
+  <data name="RialsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 438</value>
+  </data>
+  <data name="RialsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 30</value>
+  </data>
+  <data name="RialsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="RialsLabel.Text" xml:space="preserve">
+    <value>Rials</value>
+  </data>
+  <data name="&gt;&gt;RialsLabel.Name" xml:space="preserve">
+    <value>RialsLabel</value>
+  </data>
+  <data name="&gt;&gt;RialsLabel.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Label, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RialsLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RialsLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="RequestFormDataGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="RequestRow.HeaderText" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="RequestRow.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="RequestProductName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RequestProductName.HeaderText" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="RequestProductName.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <metadata name="RequestProductCount.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RequestProductCount.HeaderText" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="RequestProductCount.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <metadata name="RequestProductUnit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RequestProductUnit.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="RequestProductUnit.Width" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <metadata name="RequestProductPrice.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RequestProductPrice.HeaderText" xml:space="preserve">
+    <value>Product Price</value>
+  </data>
+  <data name="RequestProductPrice.Width" type="System.Int32, mscorlib">
+    <value>220</value>
+  </data>
+  <data name="RequestFormDataGridView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>B Yekan, 12pt, style=Bold</value>
+  </data>
+  <data name="RequestFormDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 254</value>
+  </data>
+  <data name="RequestFormDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>758, 213</value>
+  </data>
+  <data name="RequestFormDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;RequestFormDataGridView.Name" xml:space="preserve">
+    <value>RequestFormDataGridView</value>
+  </data>
+  <data name="&gt;&gt;RequestFormDataGridView.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.DataGridView, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RequestFormDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RequestFormDataGridView.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SearchCustomerTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="SearchCustomerTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 9</value>
+  </data>
+  <data name="SearchCustomerTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 27</value>
+  </data>
+  <data name="SearchCustomerTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SearchCustomerTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;SearchCustomerTextBox.Name" xml:space="preserve">
+    <value>SearchCustomerTextBox</value>
+  </data>
+  <data name="&gt;&gt;SearchCustomerTextBox.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.TextBox, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SearchCustomerTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SearchCustomerTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SearchProductTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="SearchProductTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>827, 9</value>
+  </data>
+  <data name="SearchProductTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 27</value>
+  </data>
+  <data name="SearchProductTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SearchProductTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;SearchProductTextBox.Name" xml:space="preserve">
+    <value>SearchProductTextBox</value>
+  </data>
+  <data name="&gt;&gt;SearchProductTextBox.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.TextBox, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SearchProductTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SearchProductTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Row.HeaderText" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="Row.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="CountTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="CountTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>669, 204</value>
+  </data>
+  <data name="CountTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 27</value>
+  </data>
+  <data name="CountTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="CountTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;CountTextBox.Name" xml:space="preserve">
+    <value>CountTextBox</value>
+  </data>
+  <data name="&gt;&gt;CountTextBox.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.TextBox, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;CountTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CountTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RequestForm.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>LightGoldenrodYellow</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 19</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1298, 518</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 6, 7, 6</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>InventoryTransferForm</value>
+  </data>
+  <data name="&gt;&gt;ProductCode.Name" xml:space="preserve">
+    <value>ProductCode</value>
+  </data>
+  <data name="&gt;&gt;ProductCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductName.Name" xml:space="preserve">
+    <value>ProductName</value>
+  </data>
+  <data name="&gt;&gt;ProductName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductLastPrice.Name" xml:space="preserve">
+    <value>ProductLastPrice</value>
+  </data>
+  <data name="&gt;&gt;ProductLastPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductLastStock.Name" xml:space="preserve">
+    <value>ProductLastStock</value>
+  </data>
+  <data name="&gt;&gt;ProductLastStock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductUnit.Name" xml:space="preserve">
+    <value>ProductUnit</value>
+  </data>
+  <data name="&gt;&gt;ProductUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestRow.Name" xml:space="preserve">
+    <value>RequestRow</value>
+  </data>
+  <data name="&gt;&gt;RequestRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestProductName.Name" xml:space="preserve">
+    <value>RequestProductName</value>
+  </data>
+  <data name="&gt;&gt;RequestProductName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestProductCount.Name" xml:space="preserve">
+    <value>RequestProductCount</value>
+  </data>
+  <data name="&gt;&gt;RequestProductCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestProductUnit.Name" xml:space="preserve">
+    <value>RequestProductUnit</value>
+  </data>
+  <data name="&gt;&gt;RequestProductUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RequestProductPrice.Name" xml:space="preserve">
+    <value>RequestProductPrice</value>
+  </data>
+  <data name="&gt;&gt;RequestProductPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Row.Name" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="&gt;&gt;Row.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomerCode.Name" xml:space="preserve">
+    <value>CustomerCode</value>
+  </data>
+  <data name="&gt;&gt;CustomerCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FirstName.Name" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <data name="&gt;&gt;FirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LastName.Name" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="&gt;&gt;LastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Tel.Name" xml:space="preserve">
+    <value>Tel</value>
+  </data>
+  <data name="&gt;&gt;Tel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomerType.Name" xml:space="preserve">
+    <value>CustomerType</value>
+  </data>
+  <data name="&gt;&gt;CustomerType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RequestForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Usf.WinForms.Forms.Form, Usf, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
