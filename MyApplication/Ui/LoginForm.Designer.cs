@@ -33,6 +33,7 @@
             panel1 = new Panel();
             SystemNameLabel = new Usf.WinForms.Forms.LabelControl();
             panel2 = new Panel();
+            label1 = new Usf.WinForms.Forms.Label();
             formAssistant1 = new DevExpress.XtraBars.FormAssistant();
             UsernameLabelControl = new Usf.WinForms.Forms.LabelControl();
             UsernameTextBox = new Usf.WinForms.Forms.TextEdit();
@@ -40,7 +41,6 @@
             EnterButton = new Usf.WinForms.Forms.ButtonSimlpe();
             ExitButton = new Usf.WinForms.Forms.ButtonSimlpe();
             PasswordLabelControl = new Usf.WinForms.Forms.LabelControl();
-            label1 = new Usf.WinForms.Forms.Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)UsernameTextBox.Properties).BeginInit();
@@ -84,6 +84,16 @@
             panel2.Controls.Add(LanguageLabel);
             resources.ApplyResources(panel2, "panel2");
             panel2.Name = "panel2";
+            // 
+            // label1
+            // 
+            label1.Appearance.Font = (Font)resources.GetObject("label1.Appearance.Font");
+            label1.Appearance.ForeColor = (Color)resources.GetObject("label1.Appearance.ForeColor");
+            label1.Appearance.Options.UseFont = true;
+            label1.Appearance.Options.UseForeColor = true;
+            resources.ApplyResources(label1, "label1");
+            label1.Cursor = Cursors.Hand;
+            label1.Name = "label1";
             // 
             // UsernameLabelControl
             // 
@@ -160,16 +170,6 @@
             PasswordLabelControl.Appearance.Options.UseForeColor = true;
             resources.ApplyResources(PasswordLabelControl, "PasswordLabelControl");
             PasswordLabelControl.Name = "PasswordLabelControl";
-            // 
-            // label1
-            // 
-            label1.Appearance.Font = (Font)resources.GetObject("label1.Appearance.Font");
-            label1.Appearance.ForeColor = (Color)resources.GetObject("label1.Appearance.ForeColor");
-            label1.Appearance.Options.UseFont = true;
-            label1.Appearance.Options.UseForeColor = true;
-            resources.ApplyResources(label1, "label1");
-            label1.Cursor = Cursors.Hand;
-            label1.Name = "label1";
             // 
             // LoginForm
             // 
